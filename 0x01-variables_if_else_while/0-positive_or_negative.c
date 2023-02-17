@@ -5,8 +5,9 @@
 /**
  * Main- Prints positive or negative value output
  *
- * Return: 0 (When successfuL)
+ * Return: 0.
  */
+
 
 int main(void)
 {

@@ -11,7 +11,7 @@ int main(void)
 {
 	char let;
 
-	for (let = 'a'; let<= 'z'; let++)
+	for (let = 'a'; let <= 'z'; let++)
 		putchar(let);
 
 	for (let = 'A'; let <= 'Z'; let++)
@@ -20,6 +20,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-
-
 }
