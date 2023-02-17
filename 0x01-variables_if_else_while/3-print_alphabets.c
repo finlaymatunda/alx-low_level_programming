@@ -3,8 +3,10 @@
 /**
  * main - Prints the alphabet in lowercase, and then in uppercase.
  *
- * Return: Always 0.
+ * Return: 0.
  */
+
+
 int main(void)
 {
 	char let;
@@ -18,4 +20,6 @@ int main(void)
 	putchar('\n');
 
 	return (0);
+
+
 }
