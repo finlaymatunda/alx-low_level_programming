@@ -2,11 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 
+
 /**
- * Main- Prints positive or negative value output
+ * main - Prints a random number and states whether
+ *        it is positive, negative, or zero.
  *
  * Return: 0.
- */
+*/
 
 
 int main(void)
