@@ -3,8 +3,9 @@
 #include <time.h>
 
 /**
- * Main header - Declare header
- * Return 0 (When successfuL
+ * Main- Prints positive or negative value output
+ *
+ * Return: 0 (When successfuL)
  */
 
 int main(void)
