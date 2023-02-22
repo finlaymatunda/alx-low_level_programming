@@ -5,7 +5,7 @@
   *
   * Result: Return 0;
   */
-int main (void)
+int main(void)
 {
 	int count;
 	unsigned long fib1 = 0, fib2 = 1, sum;
@@ -48,5 +48,5 @@ int main (void)
 	printf("\n");
 
 
-	Return (0);
+	return (0);
 }
