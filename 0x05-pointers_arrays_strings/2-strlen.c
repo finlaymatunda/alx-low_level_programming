@@ -5,12 +5,12 @@
  * @str: The string length
  * Return: The length of @str.
  */
-size_t _strlen(const char *str)
+int _strlen(char *s)
 {
-	size_t ln = 0;
+		int i;
 
-	while (*str++)
-		ln++;
+		for (i = 0; s[i] != '\0'; i++)
+			;
 
-	return (ln);
+		return (i);
 }
