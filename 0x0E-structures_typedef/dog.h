@@ -8,7 +8,7 @@
  * Desc: header file
  */
 
-typedef struct Dog
+struct Dog
 {
 	char *name;
 	float age;
