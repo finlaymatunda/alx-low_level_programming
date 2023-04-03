@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "lists.h"
 
 /**
@@ -14,8 +15,6 @@ size_t listint_len(const listint_t *h)
 	{
 		h = h->next;
 		number_nodes++;
-	}
-	return (nnodes);
 	}
 
 	return (number_nodes);
