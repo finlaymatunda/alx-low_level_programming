@@ -5,14 +5,13 @@
  *
  * Return : Not specified
  */
-void free_listint2(listint_t *head)
+void free_listint(listint_t *head)
 {
-        listint_t *linkednode;
+	listint_t *tmpn;
 
-        while (head != NULL)
-        {
-               head = linkednode
-	       	linkednode = head->next;
-                free(linkednode);
-        }
+	while ((tmpn = head) != NULL)
+	{
+		head = head->next;
+		free(tmpn);
+	}
 }
