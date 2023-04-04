@@ -1,6 +1,3 @@
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
 #include "lists.h"
 /**
  * free_listint2 - a function that frees a listint_t list.
@@ -10,12 +7,12 @@
  */
 void free_listint2(listint_t **head)
 {
-	listint_t *linkednode;
+	listint_t *linked_list;
 
-	while (head != NULL)
+	while (head)
 	{
-		head = linkednode;
-		linkednode = head->next;
-		free(linkednode);
+		linked_list = head->next;
+		free(head);
+		head = linked_list;
 	}
 }
